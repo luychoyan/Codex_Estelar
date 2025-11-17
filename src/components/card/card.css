@@ -1,0 +1,28 @@
+
+
+#containerItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 5rem;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: gray;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.imageCard {
+  height: 50px;
+  width: 50px;
+}
+
+.tittleCard {
+  font-size: 1.5rem;
+  color: aliceblue;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
