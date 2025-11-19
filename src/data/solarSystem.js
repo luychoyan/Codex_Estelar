@@ -22,7 +22,7 @@ import venusIcon from "../assets/uranusIcon.png"
 
 // Todos os objetos celestes e suas caracteristicas
 
-export const systemSolar = [
+export const solarSystem = [
   {
     id: "PLAN-MERCURIO", // Identificador único
     categoria: "Planeta",
@@ -65,8 +65,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Pesquisa (Efeito Estufa Extremo)",
     descricao: "Conhecido como o 'Gêmeo Malvado' da Terra. Sua atmosfera densa de dióxido de carbono causa um efeito estufa descontrolado, tornando-o o planeta mais quente do sistema solar.",
-    imgIcon: "https://via.placeholder.co/300x200/FF4500/FFFFFF?text=VENUS",
-    imgFull: ""
+    imgIcon: venusIcon,
+    imgFull: venusFull
   },
   
   // --- PLANETA 3: TERRA ---
@@ -88,8 +88,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Operacional (Lar)",
     descricao: "O único lugar conhecido no universo onde a vida evoluiu. Sua localização na zona habitável e a presença de água líquida superficial são cruciais para a biodiversidade.",
-    imgIcon: "https://via.placeholder.co/300x200/0000FF/FFFFFF?text=TERRA",
-    imgFull: ""
+    imgIcon: terraIcon,
+    imgFull: terraFull
   },
   
   // --- PLANETA 4: MARTE ---
@@ -111,8 +111,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Colonização em Andamento",
     descricao: "O Planeta Vermelho, alvo primário da colonização humana. Possui calotas polares de água congelada e vastos cânions. Evidências sugerem que já foi um mundo quente e úmido.",
-    imgIcon: "https://via.placeholder.co/300x200/FF4500/000000?text=MARTE",
-    imgFull: ""
+    imgIcon: marteIcon,
+    imgFull: marteFull
   },
   
   // --- PLANETA 5: JÚPITER ---
@@ -134,8 +134,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Observação (Grande Mancha Vermelha)",
     descricao: "O maior planeta do Sistema Solar, um gigante gasoso com uma massa mais de duas vezes a de todos os outros planetas combinados. Atua como um 'aspirador de pó' cósmico para o interior do sistema.",
-    imgIcon: "https://via.placeholder.co/300x200/FFA500/000000?text=JUPITER",
-    imgFull: ""
+    imgIcon: jupterIcon,
+    imgFull: jupterFull
   },
 
   // --- PLANETA 6: SATURNO ---
@@ -157,8 +157,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Pesquisa (Sistema de Anéis)",
     descricao: "Famoso por seu proeminente e complexo sistema de anéis, composto primariamente por gelo e rochas. É o menos denso dos planetas do sistema solar.",
-    imgIcon: "https://via.placeholder.co/300x200/DAA520/000000?text=SATURNO",
-    imgFull: ""
+    imgIcon: saturnIcon,
+    imgFull: saturnFull
   },
   
   // --- PLANETA 7: URANO ---
@@ -180,8 +180,8 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Apenas Observação",
     descricao: "Único por sua inclinação axial extrema de 98 graus, fazendo-o parecer rolar em sua órbita. É um gigante de gelo frio com uma coloração azul-esverdeada devido ao metano na atmosfera.",
-    imgIcon: "https://via.placeholder.co/300x200/40E0D0/000000?text=URANO",
-    imgFull: ""
+    imgIcon: uranusIcon,
+    imgFull: uranusFull
   },
   
   // --- PLANETA 8: NETUNO ---
@@ -203,7 +203,7 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Apenas Observação",
     descricao: "O planeta mais distante do Sol. Conhecido por seus ventos super-sônicos e a 'Grande Mancha Escura', uma tempestade atmosférica de curta duração. É um gigante de gelo com intensa atividade climática.",
-    imgIcon: "https://via.placeholder.co/300x200/00008B/FFFFFF?text=NETUNO",
-    imgFull: ""
+    imgIcon: neptuneIcon,
+    imgFull: neptuneFull
   }
 ]

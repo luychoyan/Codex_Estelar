@@ -1,6 +1,6 @@
 
 import "./solarsystem.css"
-import {systemSolar} from "../../data/systemSolar"
+import {solarSystem} from "../../data/solarSystem"
 import Card from "../../components/card/Card"
 
 // Pagina Sistema Solar
@@ -14,7 +14,7 @@ export default function SolarSystem() {
             Planetas
           </p>
 
-          {systemSolar.map((item) => (
+          {solarSystem.map((item) => (
             <Card item={item} />
           ))}
         </div>
