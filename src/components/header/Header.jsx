@@ -1,6 +1,9 @@
 
 import "./header.css"
 import icon from "../../assets/galaxia.png"
+import { Link } from "react-router"
+
+// Header de navegacao
 
 export default function Header() {
   return (
@@ -11,10 +14,10 @@ export default function Header() {
       </div>
 
       <div className="containerNavigation">
-        <p className="textNavigation">Home</p>
-        <p className="textNavigation">Sistema Solar</p>
-        <p className="textNavigation">DSO</p>
-        <p className="textNavigation">Telescopios</p>
+        <Link to="/" className="textNavigation">Home</Link>
+        <Link to="sistemaSolar" className="textNavigation">Sistema Solar</Link>
+        <Link className="textNavigation">DSO</Link>
+        <Link className="textNavigation">Telescopios</Link>
       </div>
       
     </div>

@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Goldman:wght@400;700&family=Play:wght@400;700&family=Righteous&family=Russo+One&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+#containerError {
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(21, 21, 44);
+  color: aliceblue;
+}
+
+#iconErro {
+  width: 100px;
+  height: 100px;
+}

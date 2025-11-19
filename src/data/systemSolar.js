@@ -1,4 +1,7 @@
 
+import mercuryIcon from "../assets/mercurioIcon.png"
+
+// Todos os objetos celestes e suas caracteristicas
 
 export const systemSolar = [
   {
@@ -20,6 +23,6 @@ export const systemSolar = [
     // Status e Descrição
     status_codex: "Observação (Alta Temperatura)",
     descricao: "O planeta mais interno e menor do Sistema Solar. Devido à sua proximidade com o Sol, exibe as maiores variações de temperatura, variando de -173 °C (noite) a 427 °C (dia). Sua superfície é geologicamente inativa e coberta de crateras.",
-    img_url: "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar-system/mercury/images/messenger_high_resolution_view_of_mercury_pia_13840.jpg?w=4575&h=4575&fit=clip&crop=faces%2Cfocalpoint"
+    imgIcon: {mercuryIcon}
   }
 ]

@@ -1,6 +1,8 @@
 
 import "./card.css"
 
+// Card de cada item da lista
+
 export default function Card({item}) {
   return (
     <div id="containerItem">
