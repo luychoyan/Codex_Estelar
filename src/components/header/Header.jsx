@@ -11,6 +11,7 @@ export default function Header() {
       </div>
 
       <div className="containerNavigation">
+        <p className="textNavigation">Home</p>
         <p className="textNavigation">Sistema Solar</p>
         <p className="textNavigation">DSO</p>
         <p className="textNavigation">Telescopios</p>

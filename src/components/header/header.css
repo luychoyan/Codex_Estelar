@@ -9,7 +9,7 @@
   height: 130px;
   width: 100%;
   justify-content: space-evenly;
-  background-color: rgb(20, 41, 36);
+  background-color: rgb(21, 21, 44);
   box-shadow: 0 4px 10px -2px black;
   padding: 5px;
   padding-top: 10px;
@@ -49,6 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: aliceblue;
   font-size: 1rem;
   font-family: "Goldman", sans-serif;
