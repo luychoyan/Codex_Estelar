@@ -1,15 +1,11 @@
 
 
-import Content from "../components/content/Content"
-import Header from "../../components/header/Header"
+import "./telescope.css"
 
-export default function telescope() {
+export default function Telescope() {
   return (
     <div>
-      <Header />
-      <Content>
-        Telescopios
-      </Content>
+      
     </div>
   )
 }

@@ -15,9 +15,9 @@ export default function Header() {
 
       <div className="containerNavigation">
         <Link to="/" className="textNavigation">Home</Link>
-        <Link to="sistemaSolar" className="textNavigation">Sistema Solar</Link>
-        <Link className="textNavigation">DSO</Link>
-        <Link className="textNavigation">Telescopios</Link>
+        <Link to="SistemaSolar" className="textNavigation">Sistema Solar</Link>
+        <Link to="DSO" className="textNavigation">DSO</Link>
+        <Link to="Telescopios" className="textNavigation">Telescopios</Link>
       </div>
       
     </div>

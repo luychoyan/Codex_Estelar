@@ -3,6 +3,8 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../pages/home/Home";
 import SolarSystem from "../pages/solarSystem/SolarSystem";
+import DSO from "../pages/dso/DSO";
+import Telescope from "../pages/telescope/Telescope";
 import Error from "../pages/error/Error";
 import App from "../App";
 
@@ -21,8 +23,18 @@ export const router = createBrowserRouter([
       },
       {
         // Pagina Sistema Solar
-        path: "sistemaSolar",
+        path: "SistemaSolar",
         element: <SolarSystem />
+      },
+      {
+        // Pagina DSO
+        path: "DSO",
+        element: <DSO />
+      },
+      {
+        // Pagina Telescopios
+        path: "Telescopios",
+        element: <Telescope />
       }
     ]
   }

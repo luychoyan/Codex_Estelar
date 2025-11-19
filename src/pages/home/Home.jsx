@@ -12,7 +12,7 @@ export default function Home() {
         Ola, seja muito bem vindo!
       </h3>
       <p className="textHome">
-        Meu nome e Luy Choyan, e sou o dono do canal Viajante Galactico no YouTube, e criei o Codex Estelar para ajudar as pessoas que estao comecando na astronomia e nas observacoes amadoras. E ajudar os apaixonados por esse incomensuravel universo!
+        Meu nome e Luy Choyan, e sou o dono do canal Viajante Galactico no YouTube, e criei o Codex Estelar para ajudar as pessoas que estao comecando na astronomia amadora e nas observacoes do ceu. Ajudando os apaixonados por esse incomensuravel universo!
       </p>
 
       <p className="textHome">
