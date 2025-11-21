@@ -8,14 +8,23 @@ import Card from "../../components/card/Card"
 export default function SolarSystem() {
   return (
       <div id="containerContent">
-        <div id="containerPlanets">
+        <div id="containerIntro">
         <p className="subtittleSolarSystem">
-          Objetos do Sistema Solar
+          Sistema Solar
         </p>
 
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, aperiam. Quae necessitatibus quibusdam dicta ducimus ut, cupiditate nobis hic quisquam mollitia sed laboriosam officia distinctio porro voluptatem impedit ipsam magnam.</p>
+          <p className="txtSolarSystem">Aqui voce vera como e a nossa visinhanca, quais corpos celestes possuem e quais sao possiveis de ver
+            com telescopios aqui na terra. Um Sistema Solar é um sistema planetário que consiste em uma estrela 
+            (ou um sistema de estrelas) e todos os objetos astronômicos que a orbitam, ligados pela sua força gravitacional.
+            O nosso sistema, em particular, é chamado de Sistema Solar (com S maiúsculo) porque a estrela central é o Sol.
+          </p>
         </div>
+
+        <div id="containerPlanets">
+          
+        </div>
+
         </div>
       </div>
   )
