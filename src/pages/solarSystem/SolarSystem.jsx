@@ -9,18 +9,13 @@ export default function SolarSystem() {
   return (
       <div id="containerContent">
         <div id="containerPlanets">
+        <p className="subtittleSolarSystem">
+          Objetos do Sistema Solar
+        </p>
 
-          <p className="subtittleSolarSystem">
-            Planetas
-          </p>
-
-          {solarSystem.map((item) => (
-            <Card item={item} />
-          ))}
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, aperiam. Quae necessitatibus quibusdam dicta ducimus ut, cupiditate nobis hic quisquam mollitia sed laboriosam officia distinctio porro voluptatem impedit ipsam magnam.</p>
         </div>
-
-        <div id="containerSubPlanets">
-
         </div>
       </div>
   )
